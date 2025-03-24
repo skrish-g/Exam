@@ -1,0 +1,20 @@
+@media screen and (orientation:landscape){
+    /* header{
+        width: 700px;
+    } */
+    /* .leftButton{
+        margin-left: -150px;
+        margin-right: 100px; */
+        .header2{
+            display: flex;
+        }
+}
+
+@media screen and (orientation:portrait){
+    body{
+        width: 450px;
+    }
+    .header2, .header3{
+        display: none;
+    }
+}
